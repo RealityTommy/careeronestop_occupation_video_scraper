@@ -66,7 +66,7 @@ def scrape_career_data(career_url):
 
 
 def main():
-    input_csv = os.path.join(INPUT_DIR, "career_videos.csv")
+    input_csv = os.path.join(INPUT_DIR, "career_urls.csv")
     output_csv = os.path.join(OUTPUT_DIR, "career_data_output.csv")
 
     careers_data = []

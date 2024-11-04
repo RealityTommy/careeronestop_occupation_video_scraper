@@ -24,7 +24,7 @@ This project is a web scraper designed to extract career information from Career
 - `main.py` - Main Python script for scraping career data.
 - `Dockerfile` - Docker configuration file for building the containerized environment.
 - `docker-compose.yml` - Manages the Docker container for the project.
-- `input/` - Folder to store input CSV files (place `career_videos.csv` here).
+- `input/` - Folder to store input CSV files (place `career_urls.csv` here).
 - `output/` - Folder where the output CSV file will be saved.
 
 ## Setup and Installation
@@ -45,7 +45,7 @@ This project is a web scraper designed to extract career information from Career
 
 2. **Prepare Input CSV**:
 
-   - Place `career_videos.csv` in the `input/` directory.
+   - Place `career_urls.csv` in the `input/` directory.
    - Ensure it includes columns for `Career` and `URL`, with each row representing a career name and the associated URL.
 
 3. **Build and Run the Docker Container**:
@@ -58,7 +58,7 @@ This project is a web scraper designed to extract career information from Career
 
 1. **Start Scraping**:
 
-   - The container will start scraping data from each career URL listed in `career_videos.csv`.
+   - The container will start scraping data from each career URL listed in `career_urls.csv`.
    - A progress bar will indicate the current status of the scraping.
 
 2. **View the Output**:
