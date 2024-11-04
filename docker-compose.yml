@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  careeronestop_video_scraper:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./input:/app/input
+      - ./output:/app/output
