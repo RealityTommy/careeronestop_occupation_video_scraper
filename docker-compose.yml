@@ -1,7 +1,7 @@
 version: '3.8'
 
 services:
-  careeronestop_video_scraper:
+  careeronestop_occupation_scraper:
     build:
       context: .
       dockerfile: Dockerfile
